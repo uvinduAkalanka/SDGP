@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:mainpage/main.dart';
+import 'package:mainpage/search.dart';
 import 'navbar.dart';
 
 class mainpage extends StatelessWidget {
@@ -92,7 +94,11 @@ class mainpage extends StatelessWidget {
                   ),
                 ),
 
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => HomePage()),
+                  );
+                },
                 child: Text("Pests & Diseases"),
               ),
             ),
