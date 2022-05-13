@@ -44,7 +44,7 @@ class navbar extends StatelessWidget {
               title: Text('Search'),
             ),
           ),
-
+        //Attempts to recognize gestures that correspond to its non-null callbacks.
         GestureDetector(
           onTap: () {
             Navigator.push(context,
