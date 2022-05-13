@@ -7,7 +7,7 @@ import 'home.dart';
 
 class signIn extends StatefulWidget {
   const signIn({Key? key}) : super(key: key);
-
+//stateful widget is used bcuz of user interactions
   @override
   State<signIn> createState() => _signInState();
 }
