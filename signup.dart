@@ -14,6 +14,7 @@ class _signUpState extends State<signUp> {
   final TextEditingController _passwordTextController = TextEditingController();
   final TextEditingController _emailTextController = TextEditingController();
   final TextEditingController _userNameTextController = TextEditingController();
+  //Whenever the user modifies a text field with an associated TextEditingController, the text field updates value and the controller notifies its listeners
   @override
   Widget build(BuildContext context) {
     return Scaffold(
